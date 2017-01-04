@@ -129,7 +129,7 @@ To remove a compute host, follow the below procedure.
 
      Ensure this step is performed first
 
-  .. code-block:: console
+   .. code-block:: console
 
      # Run these commands on the compute node to be removed
      # stop nova-compute
@@ -137,7 +137,7 @@ To remove a compute host, follow the below procedure.
 
 #. Clone the ``openstack-ansible-ops`` repository to your deployment host:
 
-  .. code-block:: console
+   .. code-block:: console
 
      $ git clone https://git.openstack.org/openstack/openstack-ansible-ops \
        /opt/openstack-ansible-ops
@@ -145,7 +145,7 @@ To remove a compute host, follow the below procedure.
 #. Run the ``remove_compute_node.yml`` Ansible playbook with the
    ``node_to_be_removed`` user variable set:
 
-  .. code-block:: console
+   .. code-block:: console
 
      $ cd /opt/openstack-ansible-ops/ansible_tools/playbooks
      openstack-ansible remove_compute_node.yml \
